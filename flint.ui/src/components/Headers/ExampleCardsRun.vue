@@ -1,6 +1,16 @@
 <template>
   <div
-    class="relative bg-gradient-to-r from-green-400 to-blue-500 md:pt-32 pb-32 pt-12 w-full h-screen"
+    class="
+      relative
+      bg-gradient-to-r
+      from-green-400
+      to-blue-500
+      md:pt-32
+      pb-32
+      pt-12
+      w-full
+      h-screen
+    "
   >
     <div class="px-4 md:px-10 mx-auto w-full">
       <div>
@@ -58,11 +68,11 @@
 </template>
 
 <script>
-import CardInfoRun from "@/components/Cards/CardInfoRun.vue";
+import CardInfoRun from '@/components/Cards/CardInfoRun.vue'
 
 export default {
   components: {
     CardInfoRun
   }
-};
+}
 </script>
